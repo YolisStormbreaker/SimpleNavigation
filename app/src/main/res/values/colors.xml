@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<color name="black">#FF000000</color>
+	<color name="white">#FFFFFFFF</color>
+	<color name="firstScreenBackground">#04a9f4</color>
+	<color name="secondScreenBackground">#4051b5</color>
+	<color name="thirdScreenBackground">#673ab7</color>
+	<color name="alertButtonColor">#ff5721</color>
+	<color name="toolbarColor">#3529b3</color>
+	<color name="violate">#6039ee</color>
+</resources>

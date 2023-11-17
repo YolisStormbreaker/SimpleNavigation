@@ -1,0 +1,28 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+	<!-- Base application theme. -->
+	<style name="Base.Theme.SimpleNavigation" parent="Theme.Material3.DayNight.NoActionBar">
+		<!-- Customize your light theme here. -->
+		<!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+		<item name="colorPrimaryDark">@color/toolbarColor</item>
+		<item name="colorPrimary">@color/violate</item>
+		<item name="android:navigationBarColor">@color/black</item>
+	</style>
+
+	<style name="Theme.SimpleNavigation" parent="Base.Theme.SimpleNavigation" />
+
+	<style name="Theme.SimpleNavigation.Button.Default" parent="Widget.MaterialComponents.Button">
+		<item name="android:textColor">@color/white</item>
+		<item name="android:layout_height">@dimen/button_height</item>
+		<item name="android:text">@string/hello_blank_fragment_button</item>
+		<item name="cornerRadius">@dimen/button_corner_radius</item>
+	</style>
+
+	<style name="Theme.SimpleNavigation.Button.Alert" parent="Theme.SimpleNavigation.Button.Default">
+		<item name="android:backgroundTint">@color/alertButtonColor</item>
+	</style>
+
+	<style name="Theme.SimpleNavigation.Text.Default" parent="Widget.MaterialComponents.TextView">
+		<item name="android:textColor">@android:color/black</item>
+	</style>
+
+</resources>
